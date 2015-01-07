@@ -1,0 +1,5 @@
+name: Kaomoji Ninja
+
+timezone: "America/New_York"
+
+exclude: [ "README.md" ]
