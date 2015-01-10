@@ -39,7 +39,12 @@
 
 			<ul>
 				<li>
-					{{ site.data.generated.meta.kaomoji_count }}
+					{% if site.data.generated.meta.kaomoji_count %}
+						{{ site.data.generated.meta.kaomoji_count }}
+					{% else %}
+						No
+					{% endif %}
+
 					kaomoji in the database.
 				</li>
 				<li>
