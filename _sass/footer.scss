@@ -1,0 +1,24 @@
+.footer {
+	ul {
+		list-style: none;
+		padding-left: 0;
+
+		li {
+			display: inline-block;
+
+			a {
+				color: #333;
+			}
+
+			&:after {
+				content: " | ";
+				opacity: 0.5;
+			}
+
+			&:last-child::after {
+				display: none;
+			}
+
+		}
+	}
+}
