@@ -1,0 +1,22 @@
+.kaomoji {
+	white-space: nowrap;
+}
+
+.kaomoji-container {
+	padding: 1em;
+	border: 1px solid #AAA;
+	background-color: #FEFEFE;
+
+	.kaomoji {
+		display: block;
+		text-align: center;
+		overflow: hidden;
+
+		padding: 0.5em 1em;
+
+		font-size: 20px;
+	}
+
+
+	margin-bottom: 2em;
+}
