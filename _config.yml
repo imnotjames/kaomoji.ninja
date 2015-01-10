@@ -1,5 +1,7 @@
 name: Kaomoji Ninja
 
+github_project_url: "http://github.com/imnotjames/kaomoji.ninja"
+
 timezone: "America/New_York"
 
 exclude: [ "README.md" ]
