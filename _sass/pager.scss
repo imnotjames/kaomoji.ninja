@@ -1,0 +1,36 @@
+$pager-button-size: 80px;
+
+.pager {
+	li > a {
+		color: inherit;
+
+		border-radius: 50%;
+		width: $pager-button-size;
+		height: $pager-button-size;
+		overflow: hidden;
+		text-indent: 200%;
+		position: relative;
+
+		&:after {
+			width: 100%;
+			height: 100%;
+			line-height: $pager-button-size;
+
+			text-indent: 0;
+			font-size: $pager-button-size * 0.75;
+			white-space: nowrap;
+
+			position: absolute;
+			top: -2px;
+			left: 0;
+		}
+	}
+
+	.previous > a:after {
+		content: "\21bc";
+	}
+
+	.next > a:after {
+		content: "\21c0";
+	}
+}
