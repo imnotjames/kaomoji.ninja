@@ -4,8 +4,8 @@
 
 .kaomoji-container {
 	padding: 1em;
-	border: 1px solid #AAA;
-	background-color: #FEFEFE;
+	background-color: #F8F8F8;
+	margin-bottom: 2em;
 
 	.kaomoji {
 		display: block;
@@ -17,6 +17,13 @@
 		font-size: 20px;
 	}
 
-
-	margin-bottom: 2em;
+	legend {
+		color: #666;
+		border-color: #E5E5E5;
+		border-width: 1px 0 0;
+		border-style: solid;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		font-size: 12px;
+	}
 }
