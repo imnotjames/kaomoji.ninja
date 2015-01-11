@@ -1,0 +1,15 @@
+<div class="row">
+	<div ng-repeat="k in kaomoji()" class="col-lg-3 col-md-6">
+		<div class="kaomoji-container">
+			<span class="kaomoji">{{k.text}}</span>
+
+			<legend>
+				tags
+			</legend>
+
+			<span ng-repeat="tag in k.tags">
+				{{ tag }}
+			</span>
+		</div>
+	</div>
+</div>

@@ -6,5 +6,16 @@ kaomojiNinja.controllers = (function(angular) {
 		[]
 	);
 
+	controllers.controller('KaomojiListCtrl', [
+		'$scope', 'Kaomoji',
+		function ($scope, Kaomoji) {
+			var loadedKaomoji = Kaomoji.query();
+
+			$scope.kaomoji = function() {
+				return loadedKaomoji;
+			};
+		}
+	]);
+
 	return controllers;
 }(angular));

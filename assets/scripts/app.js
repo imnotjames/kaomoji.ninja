@@ -17,7 +17,15 @@ kaomojiNinja.app.config(
 	[
 		'$routeProvider',
 		function ($routeProvider) {
-
+			$routeProvider
+				.when(
+					'/',
+					{
+						templateUrl: 'partials/kaomoji-list.html',
+						controller: 'KaomojiListCtrl'
+					}
+				)
+				.otherwise({ redirectTo: '/' });
 		}
 	]
 );
