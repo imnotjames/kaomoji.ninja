@@ -39,8 +39,8 @@
 
 			<ul>
 				<li>
-					{% if site.data.generated.meta.kaomoji_count %}
-						{{ site.data.generated.meta.kaomoji_count }}
+					{% if site.data.kaomoji.size > 0 %}
+						{{ site.data.kaomoji.size }}
 					{% else %}
 						No
 					{% endif %}
