@@ -1,0 +1,82 @@
+# Source for all of the kaomoji!
+
+- text: "（✘o✘）"
+  tags: [ "dead" ]
+
+- text: "(✖╭╮✖)"
+  tags: [ "dead" ]
+
+- text: "(╯°□°）╯︵ ┻━┻"
+  tags: [ "table flip" ]
+
+- text: "|Φ|(|´|Д|`|)|Φ|"
+  tags: [ "jail" ]
+
+- text: "(￣(工)￣) "
+  tags: [ "animal", "bear" ]
+
+- text: "(=ﾟωﾟ)人(ﾟωﾟ=)"
+  tags: [ "yo", "high five" ]
+
+- text: "凸(`Д´*)"
+  tags: [ "angry", "finger" ]
+
+- text: "=＾● ⋏ ●＾="
+  tags: [ "animal", "pet", "cat" ]
+
+- text: "ᕕ(ᐛ)ᕗ"
+  tags: [ "strutting" ]
+
+- text: "(=ↀωↀ=)✧"
+  tags: [ "animal", "pet", "cat", "mischievous" ]
+
+- text: "ˁ˚ᴥ˚ˀ"
+  tags: [ "animal", "bear" ]
+
+- text: "( ◡‿◡ฺ)zzz"
+  tags: [ "sleep" ]
+
+- text: "─━━━━"
+  tags: [ "food", "pocky" ]
+
+- text: "(‿ꜟ‿)"
+  tags: [ "butt" ]
+
+- text: "┬┴┬┴┤(・ω├┬┴┬┴"
+  tags: [ "hiding" ]
+
+- text: "[̲̅$̲̅(̲̅5̲̅)̲̅$̲̅]"
+  tags: [ "money", "usd" ]
+
+- text: "[̲̅$̲̅(̲̅10)̲̅$̲̅]"
+  tags: [ "money", "usd" ]
+
+- text: "[̲̅$̲̅(̲̅20)̲̅$̲̅]"
+  tags: [ "money", "usd" ]
+
+- text: "[̲̅$̲̅(̲̅5̲̅0)̲̅$̲̅]"
+  tags: [ "money", "usd" ]
+
+- text: "[̲̅$̲̅(̲̅100)̲̅$̲̅]"
+  tags: [ "money", "usd" ]
+
+- text: "▼o・ェ・o▼"
+  tags: [ "animal", "pet", "dog" ]
+
+- text: "( ˘ ³˘)♥"
+  tags: [ "kiss" ]
+
+- text: "(〃´3′〃)ゞ"
+  tags: [ "salute" ]
+
+- text: "(≧∇≦)"
+  tags: [ "happy" ]
+
+- text: "ʕ·ᴥ·ʔ"
+  tags: [ "bear", "polar bear" ]
+
+- text: "(″･ิ_･ิ)っ"
+  tags: [ "angry", "accusing" ]
+
+- text: "(　≖╭╮≖)"
+  tags: [ "angry", "glaring" ]
