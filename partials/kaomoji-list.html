@@ -1,4 +1,7 @@
 <div class="row">
+	<div ng-if="kaomoji().length == 0" class="text-center">
+		no kaomoji found ( ´･ω･)
+	</div>
 	<div ng-repeat="k in kaomoji() | startFrom: paging.startFrom() | limitTo: paging.perPage" class="col-lg-3 col-md-6">
 		<div class="kaomoji-container">
 			<span class="kaomoji">{{k.text}}</span>
