@@ -1,0 +1,34 @@
+$headband-color: #9664B5;
+$eye-color: #FFF;
+
+.brand-logo {
+	display: inline-block;
+	position: relative;
+
+	padding-left: 10px;
+
+	.eye {
+		color: $eye-color;
+		font-size: 45px;
+	}
+
+	.face {
+		position: relative;
+		z-index: 1;
+
+		&::after {
+			z-index: -1;
+			background-color: $headband-color;
+
+			display: block;
+			content: ' ';
+			position: absolute;
+
+			top: 13px;
+			left: 0px;
+
+			height: 14px;
+			width: 100%;
+		}
+	}
+}
