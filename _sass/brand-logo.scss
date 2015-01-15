@@ -4,31 +4,50 @@ $eye-color: #FFF;
 .brand-logo {
 	display: inline-block;
 	position: relative;
+	font-size: 45px;
 
-	padding-left: 10px;
+	margin-left: 10px;
 
-	.eye {
-		color: $eye-color;
-		font-size: 45px;
+	&::after {
+		background-color: $headband-color;
+
+		display: block;
+		content: ' ';
+		position: absolute;
+
+		top: 12px;
+		left: 0px;
+
+		height: 15px;
+		width: 100%;
 	}
 
 	.face {
+		display: inline-block;
+		height: 55px;
+		line-height: 55px;
 		position: relative;
 		z-index: 1;
 
-		&::after {
-			z-index: -1;
-			background-color: $headband-color;
+		width: 130px;
 
-			display: block;
-			content: ' ';
+		.eye {
+			display: inline-block;
+			color: $eye-color;
+			font-size: 45px;
+			line-height: 16px;
+
 			position: absolute;
 
-			top: 13px;
-			left: 0px;
+			top: 12px;
 
-			height: 14px;
-			width: 100%;
+			&:first-child {
+				left: 0;	
+			}
+
+			&:last-child {
+				right: 0;
+			}
 		}
 	}
 }
