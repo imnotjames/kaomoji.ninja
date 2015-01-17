@@ -1,13 +1,13 @@
-.kaomoji {
-	white-space: nowrap;
-}
-
 .kaomoji-container {
+	$background-color: #F8F8F8;
+
 	padding: 1em;
-	background-color: #F8F8F8;
+	background-color: $background-color;
 	margin-bottom: 2em;
 
 	.kaomoji {
+		white-space: nowrap;
+
 		display: block;
 		text-align: center;
 
@@ -21,11 +21,24 @@
 		height: 70px;
 		line-height: 45px;
 		width: 100%;
+
+		background-color: transparent;
+		border-style: none;
+		border-color: transparent;
+
+		transition: all 0.4s;
+
+		&:focus {
+			transition: all 0.4s;
+
+			background-color: #FFF;
+			border: 1px solid darken($background-color, 10%);
+		}
 	}
 
 	legend {
 		color: #666;
-		border-color: #E5E5E5;
+		border-color: darken($background-color, 10%);
 		border-width: 1px 0 0;
 		border-style: solid;
 		margin-bottom: 10px;
