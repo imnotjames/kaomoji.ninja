@@ -76,7 +76,106 @@
   tags: [ "bear", "polar bear" ]
 
 - text: "(″･ิ_･ิ)っ"
-  tags: [ "angry", "accusing" ]
+  tags: [ "angry", "accuse" ]
 
 - text: "(　≖╭╮≖)"
-  tags: [ "angry", "glaring" ]
+  tags: [ "angry", "glare" ]
+
+- text: "∈(⁰ つ)ミ"
+  tags: [ "animal", "bird" ]
+
+- text: "Ｕ･ェ･Ｕ"
+  tags: [ "animal", "pet", "dog" ]
+
+- text: "(〓￣(∵エ∵)￣〓)"
+  tags: [ "animal", "pet", "dog" ]
+
+- text: "(灬╹ω╹灬)"
+  tags: [ "face", "cute" ]
+
+- text: "°˖✧◝(⁰▿⁰)◜✧˖°"
+  tags: [ "sparkles", "cute" ]
+
+- text: "(ʘ‿ʘ )ノ✿"
+  tags: [ "throwing", "flower girl" ]
+
+- text: "(◕‿◕✿)"
+  tags: [ "face", "cute", "flower girl" ]
+
+- text: "(◡‿◡✿)"
+  tags: [ "face", "cute", "flower girl", "sleep" ]
+
+- text: "▄█▀█●"
+  tags: [ "sad" ]
+
+- text: "(´∩｀。)"
+  tags: [ "sad" ]
+
+- text: "o(╥﹏╥)"
+  tags: [ "sad", "cry" ]
+
+- text: "(´°̥̥̥̥̥̥̥̥ω°̥̥̥̥̥̥̥̥｀)"
+  tags: [ "sad", "cry" ]
+
+- text: "（˶′◡‵˶）ε｀●)"
+  tags: [ "kiss" ]
+
+- text: "(ɔˆ ³(ˆ⌣ˆc)"
+  tags: [ "kiss" ]
+
+- text: "(♥ó㉨ò)ﾉ♡"
+  tags: [ "animal", "bear", "cute", "heart" ]
+
+- text: "(✿◕㉨◕)"
+  tags: [ "animal", "bear", "flower girl" ]
+
+- text: "｡◕‿◕｡"
+  tags: [ "face", "cute", "smile" ]
+
+- text: "ξＩ・Ｊ・Ｉ"
+  tags: [ "face" ]
+
+- text: "（´-ω-）...zzZZ"
+  tags: [ "face", "sleep" ]
+
+- text: "¯\_(ツ)_/¯"
+  tags: [ "face", "shrug" ]
+
+- text: "ԅ(￣ε￣ԅ)"
+  tags: [ "face", "grab" ]
+
+- text: "(≧◡≦)"
+  tags: [ "face", "happy" ]
+
+- text: "(⊙_⊙)"
+  tags: [ "face", "surprised" ]
+
+- text: "(｡・//ε//・｡)"
+  tags: [ "face", "kiss", "blush" ]
+
+- text: "ヽ(♡‿♡)ノ"
+  tags: [ "face", "love", "heart" ]
+
+- text: "(´｡• ᵕ •｡`) ♡"
+  tags: [ "face", "love", "innocent", "heart" ]
+
+- text: "(⇀‸↼‶)"
+  tags: [ "face", "annoyed" ]
+
+- text: ".･ﾟﾟ･(／ω＼)･ﾟﾟ･."
+  tags: [ "face", "sad", "cry" ]
+
+- text: "(＃`Д´)"
+  tags: [ "face", "angry" ]
+
+- text: "(•ิ_•ิ)?"
+  tags: [ "face", "confused" ]
+
+- text: "(ノ°益°)ノ"
+  tags: [ "face", "angry" ]
+
+- text: "٩(╬ʘ益ʘ╬)۶"
+  tags: [ "face", "angry" ]
+
+- text: "(╬ Ò﹏Ó)"
+  tags: [ "face", "angry", "annoyed" ]
