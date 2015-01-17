@@ -11,6 +11,10 @@ kaomojiNinja.controllers = (function(angular) {
 		function ($scope, Kaomoji) {
 			var loadedKaomoji = Kaomoji.query();
 
+			$scope.select = function($event) {
+				$event.target.select();
+			};
+
 			$scope.kaomoji = function() {
 				return loadedKaomoji;
 			};
