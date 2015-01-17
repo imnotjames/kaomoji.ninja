@@ -1,3 +1,6 @@
+---
+---
+
 'use strict';
 
 kaomojiNinja.services = (function(angular) {
@@ -14,7 +17,7 @@ kaomojiNinja.services = (function(angular) {
 			'$resource',
 			function($resource){
 				return $resource(
-					'data/kaomoji.json',
+					'data/kaomoji.json?' + {{ site.time | date_to_xmlschema | uri_escape | jsonify }},
 					{},
 					{
 						query: {
