@@ -9,14 +9,14 @@ kaomojiNinja.controllers = (function(angular) {
 	controllers.controller('KaomojiListCtrl', [
 		'$scope', 'Kaomoji',
 		function ($scope, Kaomoji) {
-			var loadedKaomoji = Kaomoji.query();
+			$scope.kaomoji = [];
+
+			Kaomoji.query(function (data, headers) {
+				$scope.kaomoji = data;
+			});
 
 			$scope.select = function($event) {
 				$event.target.select();
-			};
-
-			$scope.kaomoji = function() {
-				return loadedKaomoji;
 			};
 
 			var page = 0;
@@ -34,7 +34,7 @@ kaomojiNinja.controllers = (function(angular) {
 
 				count: function() {
 					return Math.ceil(
-						$scope.kaomoji().length / $scope.paging.perPage
+						$scope.kaomoji.length / $scope.paging.perPage
 					);
 				},
 
