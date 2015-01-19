@@ -1,4 +1,8 @@
-<div class="row">
+<div ng-if="isLoading" class="text-center">
+	loading kaomoji..
+</div>
+
+<div class="row" ng-if="!isLoading">
 	<div ng-if="kaomoji.length == 0" class="text-center col-xs-12">
 		no kaomoji found ( ´･ω･)
 	</div>
